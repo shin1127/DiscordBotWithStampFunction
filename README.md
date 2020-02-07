@@ -8,9 +8,9 @@
 従って、「チャットの代用として、emojiで感情表現などを行う」ことが難しい。
 そこで、大きな画像でやりとりする方法を考えた。
 
-特定のキーワードに反応して画像を出力するというBotをPythonとdiscord.pyで実装し、問題点を解決する。
+特定のキーワードに反応して画像を出力するというBotをPythonとdiscord.pyで実装し、問題を解決する。
 
-# 　Development environment
+# Development environment
 
 Python 3.6.8
 discord.py 1.2.5

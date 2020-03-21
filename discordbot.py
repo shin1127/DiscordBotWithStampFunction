@@ -19,20 +19,14 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content == '/img':
-        await message.channel.send(file=discord.File('94b9510455559005c94619c7a81d23a2.png'))
+    if message.content == '/hoge':
+        await message.channel.send(file=discord.File('hogeimg.png'))
 
-    if message.content == '/1億':
-        await message.channel.send(file=discord.File('stamp/1oku.jpg'))
+    if message.content == '/foo':
+        await message.channel.send(file=discord.File('stamp/foo.jpg'))
 
-    if message.content == '/古戦場':
-        await message.channel.send(file=discord.File('stamp/kosenjo.png'))
-
-    if message.content == '/ノルマ':
-        await message.channel.send(file=discord.File('stamp/norma.png'))
-
-    if message.content == "/ヨシ":
-        await message.channel.send(file=discord.File('stamp/yosi.png'))
+    if message.content == '/bar':
+        await message.channel.send(file=discord.File('stamp/bar.png'))
 
 
 client.run(TOKEN)
